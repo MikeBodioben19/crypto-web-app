@@ -12,7 +12,11 @@ const styles = {
     flexCenter: "flex items-center justify-center",
     
     flexStart: "flex items-center justify-start",
+
 }
 
+export const layout = {
+    paddingF: `${styles.paddingX} ${styles.paddingY}`,
 
+}
 export default styles;
